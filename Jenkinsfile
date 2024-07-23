@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage('Hello') {
             steps {
-                sh 'e ch  o "Hello  Wo rldw"'
+                sh 'echo "Hello  Wo rldw"'
             }
         }
     }
